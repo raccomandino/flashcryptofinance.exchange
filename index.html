@@ -10,14 +10,25 @@
             background: url('https://raw.githubusercontent.com/raccomandino/flashcryptofinance.exchange/refs/heads/main/e11f1f9f.jpg') no-repeat center center fixed;
             background-size: cover;
         }
+        .glassmorphic {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
     </style>
 </head>
 <body class="flex items-center justify-center h-screen text-white text-center">
-    <div class="bg-black bg-opacity-50 p-10 rounded-xl">
+    <div class="glassmorphic p-10 max-w-lg w-full">
+        <!-- Logo -->
+        <img src="https://raw.githubusercontent.com/raccomandino/flashcryptofinance.exchange/refs/heads/main/FCF_Logo%202025-02-17%2018_16_44.PNG" alt="Flash Crypto Finance Logo" class="w-24 h-24 mx-auto mb-4">
+
         <h1 class="text-4xl font-bold mb-4">Flash Crypto Finance Exchange</h1>
         <p class="text-lg">We're launching soon! Stay tuned for updates.</p>
+        
         <div class="mt-6">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-transform transform hover:scale-105">
                 Notify Me
             </button>
         </div>
